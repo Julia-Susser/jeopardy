@@ -1,0 +1,9 @@
+let lengthy = ShowsJSON.shows.length
+let num = Math.floor(Math.random() * lengthy)
+let lengthy2 = ShowsJSON.shows[num].questions.length
+let num2 = Math.floor(Math.random() * lengthy2)
+let question = ShowsJSON.shows[num].questions[num2].question
+let value = ShowsJSON.shows[num].questions[num2].value
+let date = ShowsJSON.shows[num].date
+let answer = ShowsJSON.shows[num].questions[num2].answer
+let category = ShowsJSON.shows[num].questions[num2].category
