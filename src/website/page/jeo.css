@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+  background-color: lightblue;
+  color: violet;
+
+}
+#hint{
+  margin-top: 10px;
+  align: center;
+  margin-bottom: 10px;
+  color: lightblue;
+  background-color: purple;
+}
+#ansey{
+  display : none;
+  color: green;
+  opacity: .5
+}
+
+.reload{
+
+
+  color: green;
+
+}
